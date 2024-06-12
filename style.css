@@ -1,0 +1,389 @@
+/* CSS for changing the color of the menu and search icons to white */
+header .nav .bi-list,
+header .nav .bi-search {
+    fill: white;
+}
+
+header {
+    background-color: #333; 
+    padding: 10px 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+header .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header .nav .Logo {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+header .nav .navbar {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header .nav .navbar li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header .nav .navbar li a:hover,
+header .nav .navbar li a.active {
+    text-decoration: underline;
+    color: #d30909;
+}
+
+header .nav input[type="search"] {
+    padding: 10px;
+    border-radius: 4px;
+    border-bottom: #d30909;
+    border: 1px solid #ccc;
+}
+
+
+
+
+.home{
+  max-width: 1300px;
+  margin: auto;
+  width: 100%;
+  min-height: 640px;
+  display: flex;
+  align-items: center;
+  background: url(/About.png.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center left;
+}
+.home-text{
+  padding-left: 70px;
+  margin-top: 10px;
+}
+.home-text h1{
+  font-size: 1.3rem;
+  
+}
+.home-text span{
+  color: rgb(241, 13, 13);
+}
+.home-text{
+  font-size: 15px;
+  font-weight: 300rem;
+  margin: 20rem;
+  margin-top: 1rem;
+  margin-left: 0rem;
+}
+.btn{
+  text-decoration: none;
+  padding: 10px 22px;
+  background: red;
+  border-radius: 10px;
+  color: white;
+  font-weight: 400; 
+}
+.btn:hover{
+  background: #b61d36;
+}
+.heading{
+  text-align: center;
+}
+.heading span{
+  font-weight: 500;
+  color: red;
+}
+.heading p{
+  font-size: 0.938rem;
+  font-weight: 300;
+}
+.cars-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.cars-container .box{
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.cars-container .box{
+  object-fit: cover;
+  overflow: hidden;
+}
+.cars-container .box:hover{
+  transform: scale(1.1);
+  transition: 0.0;
+}
+.cars-container .box h2{
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  font-weight: 400;
+  font-size: 1rem;
+  background: var(--bg-color);
+  padding: 8px;
+  border-radius: 0.5rem; 
+}
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.about-text {
+    max-width: 50%;
+}
+
+.about-container img {
+    max-width: 50%;
+    height: auto;
+}
+
+.about-text span {
+    display: block;
+    color: red;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.about-text h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00ff2a;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.parts-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px; 
+  padding: 20px 0;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.box img {
+  margin-bottom: 10px;
+}
+
+.box h3 {
+  margin: 10px 0;
+}
+
+.box span {
+ color: #333;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.box i {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.box .btn {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.box .btn:hover {
+  background-color: #0056b3;
+}
+.box .details {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.box .details:hover {
+  text-decoration: underline;
+}
+
+.blog-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.blog-container .box{
+  flex: 1 1 13rem;
+  padding: 20px;
+}
+.blog-container .box:hover{
+  background: #f6f6f6;
+}
+.blog-container .box span{
+  font-size: 0.8rem;
+  color: red;
+}
+.blog-container .box h3{
+  font-size: 1.2rem;
+}
+.blog-container .box p{
+  font-size: 0.938rem;
+  margin: 4px 0;
+}
+.blog-container .box .blog-btn{
+  display: flex;
+  align-items: center;
+  column-gap: 4rem;
+  color: var(--text-color);
+}
+.blog-container .box .blog-btn .bx{
+    font-size: 20px;
+}
+.footer{
+  background: #b61d36;
+  color: #f6f6f6;
+  border-top: #b61d36;
+}
+
+.cars-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Center content inside each box */
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+}
+
+.footer-box {
+  flex: 1;
+  min-width: 200px;
+  padding: 10px;
+}
+.footer-box a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
+}
+.bi-twitter .pop{
+  display: inline;
+  color: #f6f6f6;
+}
+.footer-box a:hover{
+  text-decoration: underline;
+  color: #ff1e00;
+}
+.footer-box h3 {
+  margin-bottom: 10px;
+}
+.Logo {
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: bold;
+}
+.Logo span {
+  color: red;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .header .container,
+  .about-container,
+  .footer-container {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .cars-container .box,
+  .parts-container .box,
+  .blog-container .box {
+      flex: 1 1 100%;
+  }
+
+  .about-text,
+  .about-container img {
+      flex: 1 1 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  header .container {
+      flex-direction: column;
+  }
+
+  header .navbar {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  header .navbar li {
+      margin: 10px 0;
+  }
+}
+
